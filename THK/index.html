@@ -1,107 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sister to Sister Mentorship</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - Sister to Sister Mentorship</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Playfair Display', sans-serif;
-      background-color: #E669C5;
-      color: white;
-    }
-    .navbar {
-      background-color: #DFA4CF;
-    }
-    .navbar a {
-      color: white;
-      font-weight: bold;
-      margin-right: 15px;
-      text-decoration: none;
-    }
-    .banner {
-      background-color: #DFA4CF;
-      padding: 40px 0;
-      text-align: center;
-    }
-    .banner h1 {
-      font-size: 2rem;
-      margin-top: 10px;
-    }
-    .banner img {
-      width: 200px; /* Increased logo size */
-      margin-bottom: 10px;
-    }
-    .section-title {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    .card {
-      background-color: white;
-      color: #333;
-      border: none;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-    }
-    .card a {
-      color: #f78ac1;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .card a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand text-white fw-bold" href="#">Sister to Sister</a>
-      <div class="ms-auto">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+      <a class="navbar-brand text-white fw-bold" href="index.html">Sister to Sister</a>
+      <div class="ms-auto d-flex">
+        <a class="nav-link text-white" href="index.html">Home</a>
+        <a class="nav-link text-white" href="about.html">About</a>
+        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+        <a class="nav-link text-white" href="business.html">Business Idea</a>
+        <a class="nav-link text-white" href="contact.html">Contact</a>
       </div>
     </div>
   </nav>
 
   <!-- Banner -->
   <section class="banner">
-     <img src="Screenshot 2025-08-05 at 12.56.37.png" alt="Sister to Sister Logo">
+    <img src="logo.png" alt="Sister to Sister Logo" width="180">
     <h1>Welcome to the Sister to Sister Mentorship Program</h1>
+    <p class="lead">Empowering Young Black Women with Sisterly Support.</p>
   </section>
 
-  <!-- Home Sections -->
+  <!-- Mission Section with Toggle -->
+  <div class="text-center my-4">
+    <button class="btn btn-light text-dark fw-bold" onclick="toggleMission()">Show/Hide Mission</button>
+  </div>
+  <div id="mission-text" class="container mb-5" style="visibility: visible;">
+    <h2 class="section-title">Mission</h2>
+    <p>We connect girls of color with inspiring mentors to build confidence, purpose, and leadership.</p>
+  </div>
+
+  <!-- Three Cards -->
   <div class="container my-5">
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card">
           <h2 class="section-title">Just getting started?</h2>
-          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="Placeholder">
-          <a href="#">New to mentorship? Here’s how to begin</a>
+          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="">
+          <a href="#">How to Begin</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
           <h2 class="section-title">Strengthen Your Sister Bond</h2>
-          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="Placeholder">
-          <a href="#">Tips and challenges to stay connected</a>
+          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="">
+          <a href="#">Stay Connected</a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
           <h2 class="section-title">Ready to Lead?</h2>
-          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="Placeholder">
-          <a href="#">For mentors ready to grow as leaders</a>
+          <img src="https://via.placeholder.com/150" class="img-fluid my-3" alt="">
+          <a href="#">Grow as a Leader</a>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer>© 2025 Sister to Sister Mentorship</footer>
+  <script src="script.js"></script>
 </body>
 </html>
+
