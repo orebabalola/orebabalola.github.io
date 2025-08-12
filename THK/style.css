@@ -1,0 +1,66 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #E669C5;
+  color: white;
+}
+
+.navbar {
+  background-color: #DFA4CF;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: #DFA4CF;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.banner img {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card a {
+  color: #E669C5;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #DFA4CF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
