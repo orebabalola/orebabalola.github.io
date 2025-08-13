@@ -1,66 +1,39 @@
 body {
-  font-family: 'Playfair Display', serif;
-  background-color: #E669C5;
+  font-family: 'Arial', sans-serif;
   color: white;
 }
 
 .navbar {
-  background-color: #DFA4CF;
+  background-color: transparent;
 }
 
-.navbar a {
-  color: white;
-  font-weight: bold;
-  margin-right: 15px;
+.logo-img {
+  width: 60px;
+  margin-left: 10px;
 }
 
-.navbar a:hover {
-  text-decoration: underline;
+/* Background colors for each page */
+.home-page {
+  background-color: #E669C5;
+}
+.about-page {
+  background-color: #BB81DF;
+}
+.contact-page {
+  background-color: #900792;
+}
+.portfolio-page {
+  background-color: #C853F1;
 }
 
-.banner {
-  background-color: #DFA4CF;
-  padding: 40px 0;
-  text-align: center;
-}
-
-.banner img {
-  width: 180px;
-  margin-bottom: 10px;
-}
-
-.section-title {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
+/* Card styling */
 .card {
-  background-color: white;
-  color: #333;
-  border: none;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-.card a {
-  color: #E669C5;
-  font-weight: bold;
-}
-
-.card a:hover {
-  text-decoration: underline;
+  background: white;
+  color: black;
+  border-radius: 10px;
 }
 
 footer {
-  background-color: #DFA4CF;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
+
