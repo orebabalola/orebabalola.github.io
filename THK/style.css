@@ -1,10 +1,16 @@
+/* Global Styles */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Playfair Display', serif;
   color: white;
+  margin: 0;
 }
 
 .navbar {
   background-color: transparent;
+}
+
+.nav-link {
+  font-weight: bold;
 }
 
 .logo-img {
@@ -14,26 +20,59 @@ body {
 
 /* Background colors for each page */
 .home-page {
-  background-color: #E669C5;
-}
-.about-page {
-  background-color: #BB81DF;
-}
-.contact-page {
-  background-color: #900792;
-}
-.portfolio-page {
-  background-color: #C853F1;
+  background-color: #DFA4CF; /* Home pink from your update */
 }
 
-/* Card styling */
+.about-page {
+  background-color: #BB81DF; /* About purple */
+}
+
+.contact-page {
+  background-color: #900792; /* Contact deep purple */
+}
+
+.portfolio-page {
+  background-color: #C853F1; /* Portfolio lilac */
+}
+
+.business-page {
+  background-color: #F2A7D8; /* Business soft pink-purple */
+  font-family: 'Playfair Display', serif;
+}
+
+/* Card Styling */
 .card {
   background: white;
   color: black;
   border-radius: 10px;
+  border: none;
+  padding: 20px;
 }
 
+.card h5 {
+  font-weight: bold;
+}
+
+.card a {
+  color: #f78ac1;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Banner Image Styling */
+.big-logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer Styling */
 footer {
   background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
-
