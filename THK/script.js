@@ -1,10 +1,8 @@
-function toggleMission() {
-  const mission = document.getElementById("mission-text");
-  mission.style.visibility = (mission.style.visibility === "hidden") ? "visible" : "hidden";
-}
-
-let count = 0;
-function increaseCount() {
-  count++;
-  document.getElementById("count-display").textContent = count;
-}
+document.getElementById("toggleMission")?.addEventListener("click", function() {
+  const mission = document.getElementById("missionText");
+  if (mission.style.display === "none") {
+    mission.style.display = "block";
+  } else {
+    mission.style.display = "none";
+  }
+});
