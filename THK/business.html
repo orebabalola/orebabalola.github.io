@@ -1,65 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business Idea - Sister to Sister</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Arial&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="business-page">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand text-white fw-bold" href="index.html">Sister to Sister</a>
-      <div class="ms-auto d-flex">
-        <a class="nav-link text-white" href="index.html">Home</a>
-        <a class="nav-link text-white" href="about.html">About</a>
-        <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
-        <a class="nav-link text-white" href="business.html">Business Idea</a>
-        <a class="nav-link text-white" href="contact.html">Contact</a>
-      </div>
+  <nav class="navbar navbar-expand-lg px-3">
+    <a class="navbar-brand text-white fw-bold" href="index.html">Sister to Sister</a>
+    <div class="ms-auto d-flex align-items-center">
+      <a href="index.html" class="nav-link text-white">Home</a>
+      <a href="about.html" class="nav-link text-white">About</a>
+      <a href="portfolio.html" class="nav-link text-white">Portfolio</a>
+      <a href="business.html" class="nav-link text-white">Business Idea</a>
+      <a href="contact.html" class="nav-link text-white">Contact</a>
+      <img src="logo.png" alt="Sister to Sister Logo" class="logo-img">
     </div>
   </nav>
 
-  <section class="banner">
-    <h1>Our Small Business Idea</h1>
-    <p>Bringing our vision to life through design and planning.</p>
+  <!-- Page Content -->
+  <section class="container text-center py-5">
+    <!-- Big Logo -->
+    <img src="logo.png" alt="Sister to Sister Logo" class="big-logo mb-4">
+
+    <h1 class="display-4">Our Business Idea</h1>
+    <p class="lead">Creating a platform that inspires, empowers, and connects young Black women with the tools and mentorship they need to thrive.</p>
+
+    <div class="mt-5 text-start">
+      <h2>Our Vision</h2>
+      <p>To build a sustainable mentorship network where young women of color can learn from experienced mentors and gain access to resources, leadership opportunities, and a supportive sisterhood.</p>
+
+      <h2>Our Mission</h2>
+      <p>We aim to provide educational programs, community events, and career development tools tailored to empowering our community.</p>
+    </div>
   </section>
 
-  <!-- Mockup -->
-  <div class="container text-center my-5">
-    <h2 class="section-title">Design Mockup</h2>
-    <img src="assets/mockup.png" class="img-fluid" alt="Business Mockup">
-  </div>
+  <footer class="text-center py-3">&copy; 2025 Sister to Sister Mentorship</footer>
 
-  <!-- Color Palette & Fonts -->
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-6">
-        <h3>Color Palette</h3>
-        <div style="display: flex; gap: 10px;">
-          <div style="background:#E669C5; width:40px; height:40px;"></div>
-          <div style="background:#DFA4CF; width:40px; height:40px;"></div>
-          <div style="background:#fff; width:40px; height:40px; border:1px solid #ccc;"></div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <h3>Fonts</h3>
-        <p style="font-family:'Playfair Display', serif;">Playfair Display (Headings)</p>
-        <p style="font-family:sans-serif;">Sans-serif (Body)</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Click Counter JS Example -->
-  <div class="text-center my-4">
-    <button class="btn btn-light text-dark fw-bold" onclick="increaseCount()">Click Me!</button>
-    <p>You have clicked: <span id="count-display">0</span> times</p>
-  </div>
-
-  <footer>© 2025 Sister to Sister Mentorship</footer>
-  <script src="script.js"></script>
 </body>
 </html>
+
