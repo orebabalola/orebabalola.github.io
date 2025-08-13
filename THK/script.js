@@ -1,8 +1,11 @@
-document.getElementById("toggleMission")?.addEventListener("click", function() {
-  const mission = document.getElementById("missionText");
-  if (mission.style.display === "none") {
-    mission.style.display = "block";
-  } else {
-    mission.style.display = "none";
+// Safe DOM hookup after page loads
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.getElementById("toggleMission");
+  const box = document.getElementById("missionText");
+  if (btn && box) {
+    btn.addEventListener("click", () => {
+      box.style.display = (box.style.display === "none") ? "block" : "none";
+    });
   }
 });
+
