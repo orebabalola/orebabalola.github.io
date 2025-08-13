@@ -1,78 +1,59 @@
-/* Global Styles */
+/* Global */
+* { box-sizing: border-box; }
 body {
   font-family: 'Playfair Display', serif;
   color: white;
   margin: 0;
 }
-
-.navbar {
-  background-color: transparent;
-}
-
-.nav-link {
-  font-weight: bold;
-}
+.navbar { background-color: transparent; }
+.nav-link { font-weight: bold; }
+.nav-link:hover { text-decoration: underline; }
 
 .logo-img {
   width: 60px;
-  margin-left: 10px;
+  height: auto;
+  margin-left: 8px;
+  display: inline-block;
 }
 
-/* Background colors for each page */
-.home-page {
-  background-color: #DFA4CF; /* Home pink from your update */
-}
+/* Page background colors */
+.home-page { background-color: #DFA4CF; }      /* Home */
+.about-page { background-color: #BB81DF; }     /* About */
+.contact-page { background-color: #900792; }   /* Contact */
+.portfolio-page { background-color: #C853F1; } /* Portfolio */
+.business-page { background-color: #F2A7D8; }  /* Business */
 
-.about-page {
-  background-color: #BB81DF; /* About purple */
-}
-
-.contact-page {
-  background-color: #900792; /* Contact deep purple */
-}
-
-.portfolio-page {
-  background-color: #C853F1; /* Portfolio lilac */
-}
-
-.business-page {
-  background-color: #F2A7D8; /* Business soft pink-purple */
-  font-family: 'Playfair Display', serif;
-}
-
-/* Card Styling */
+/* Cards */
 .card {
-  background: white;
-  color: black;
-  border-radius: 10px;
+  background: #ffffff;
+  color: #222;
+  border-radius: 12px;
   border: none;
-  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.card h5 {
-  font-weight: bold;
-}
-
-.card a {
-  color: #f78ac1;
-  text-decoration: none;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-/* Banner Image Styling */
+/* Big centered logo (business page) */
 .big-logo {
-  width: 200px;
+  width: 220px;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
 
-/* Footer Styling */
+/* Color swatches (business page) */
+.swatch {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  border: 2px solid rgba(255,255,255,0.6);
+}
+
+/* Footer */
 footer {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255,255,255,0.2);
   color: white;
   text-align: center;
-  padding: 15px;
+  padding: 14px;
+  margin-top: 24px;
 }
+
