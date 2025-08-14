@@ -1,4 +1,4 @@
-/* Global */
+ /* Global */
 * { box-sizing: border-box; }
 body {
   font-family: 'Playfair Display', serif;
@@ -17,11 +17,26 @@ body {
 }
 
 /* Page background colors */
-.home-page { background-color: #DFA4CF; }      /* Home */
+.home-page { background-color: #E669C5; }      /* Home main background */
 .about-page { background-color: #BB81DF; }     /* About */
 .contact-page { background-color: #900792; }   /* Contact */
 .portfolio-page { background-color: #C853F1; } /* Portfolio */
 .business-page { background-color: #F2A7D8; }  /* Business */
+
+/* Banner (Home page only) */
+.banner {
+  background-color: #DFA4CF; /* Banner color */
+  padding: 40px 0;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin: 0;
+}
 
 /* Cards */
 .card {
